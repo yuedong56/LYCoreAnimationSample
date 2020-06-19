@@ -38,7 +38,9 @@
 {
     UITouch *touch = [touches anyObject];
     CGPoint position = [touch locationInView:self.view];
-    
+ 
+    //对于UIView的根图层而言属性的修改并不形成动画效果，因为很多情况下根图层更多的充当容器的做用，
+    //如果它的属性变动形成动画效果会直接影响子图层。
     self.blueView.layer.position = position;
     if (self.blueView.layer.bounds.size.width == MinWidth) {
         self.blueView.layer.bounds = CGRectMake(0, 0, MaxWidth, MaxWidth);

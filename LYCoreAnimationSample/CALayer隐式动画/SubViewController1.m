@@ -35,6 +35,7 @@
     self.layer.backgroundColor = [[UIColor redColor] CGColor];
     self.layer.position = CGPointMake(ScreenSize.width/2, ScreenSize.height/2);
     self.layer.bounds = CGRectMake(0, 0, MinWidth, MinWidth);
+    self.layer.anchorPoint = CGPointMake(0.5, 0.5); //控制手的落脚点，默认是中心点（0.5, 0.5）
     
     self.layer.shadowColor = [[UIColor grayColor] CGColor];
     self.layer.shadowRadius = 2;
@@ -48,6 +49,8 @@
     UITouch *touch = [touches anyObject];
     CGPoint position = [touch locationInView:self.view];
     
+    //[CATransaction setDisableActions:YES];//禁用隐式动画
+
     self.layer.position = position;
     if (self.layer.bounds.size.width == MinWidth) {
         self.layer.bounds = CGRectMake(0, 0, MaxWidth, MaxWidth);

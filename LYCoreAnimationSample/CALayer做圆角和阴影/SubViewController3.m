@@ -19,7 +19,6 @@
 
 
 //不使用 UIImageView，直接使用 CALayer 的代理方法 -drawLayer:(CALayer *)layer inContext: 进行图片绘制
-
 @implementation SubViewController3
 
 - (void)viewDidLoad
@@ -45,7 +44,7 @@
 #pragma mark - CALayerDelegate
 /** 此处是通过代理 -drawLayer: inContext: 方法；
     若自定义图层，则通过 -drawInContext: 方法（类似 UIView 的 -drawRect:） */
-- (void)drawLayer:(CALayer *)layer inContext:(nonnull CGContextRef)ctx
+- (void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx
 {
     CGContextSaveGState(ctx);
 
