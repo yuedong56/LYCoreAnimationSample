@@ -19,6 +19,7 @@
 		3579B5272386447700F03138 /* SubViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 3579B5262386447700F03138 /* SubViewController4.m */; };
 		3579B52A2386499700F03138 /* BasicAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3579B5292386499700F03138 /* BasicAnimationController.m */; };
 		3579B52D2386805200F03138 /* LYDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3579B52C2386805200F03138 /* LYDemoViewController.m */; };
+		70A7A31A249CB79500F9236B /* SubViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A7A319249CB79500F9236B /* SubViewController5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		3579B5292386499700F03138 /* BasicAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicAnimationController.m; sourceTree = "<group>"; };
 		3579B52B2386805200F03138 /* LYDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDemoViewController.h; sourceTree = "<group>"; };
 		3579B52C2386805200F03138 /* LYDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDemoViewController.m; sourceTree = "<group>"; };
+		70A7A318249CB79500F9236B /* SubViewController5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubViewController5.h; sourceTree = "<group>"; };
+		70A7A319249CB79500F9236B /* SubViewController5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubViewController5.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,7 @@
 				3579B50423862F4400F03138 /* AppDelegate.m */,
 				3579B50923862F4400F03138 /* ViewController.h */,
 				3579B50A23862F4400F03138 /* ViewController.m */,
+				70A7A317249CB76400F9236B /* CAKeyframeAnimation（关键帧动画） */,
 				70A7A311249C587200F9236B /* CALayer隐式动画 */,
 				70A7A316249C588D00F9236B /* UIView中的的CALayer动画 */,
 				70A7A315249C588A00F9236B /* CALayer做圆角和阴影 */,
@@ -147,6 +151,15 @@
 				3579B520238637B100F03138 /* SubViewController2.m */,
 			);
 			path = "UIView中的的CALayer动画";
+			sourceTree = "<group>";
+		};
+		70A7A317249CB76400F9236B /* CAKeyframeAnimation（关键帧动画） */ = {
+			isa = PBXGroup;
+			children = (
+				70A7A318249CB79500F9236B /* SubViewController5.h */,
+				70A7A319249CB79500F9236B /* SubViewController5.m */,
+			);
+			path = "CAKeyframeAnimation（关键帧动画）";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,7 @@
 				3579B50B23862F4400F03138 /* ViewController.m in Sources */,
 				3579B5272386447700F03138 /* SubViewController4.m in Sources */,
 				3579B50523862F4400F03138 /* AppDelegate.m in Sources */,
+				70A7A31A249CB79500F9236B /* SubViewController5.m in Sources */,
 				3579B51623862F4500F03138 /* main.m in Sources */,
 				3579B51E238631D500F03138 /* SubViewController1.m in Sources */,
 				3579B52A2386499700F03138 /* BasicAnimationController.m in Sources */,

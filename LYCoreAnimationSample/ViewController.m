@@ -13,6 +13,7 @@
 #import "SubViewController4.h"
 #import "BasicAnimationController.h"
 #import "LYDemoViewController.h"
+#import "SubViewController5.h"
 
 @interface ViewController ()
 
@@ -35,7 +36,7 @@
                        @"CABasicAnimation",
                        @"UIView中核心动画",
 //                       @"CATransition（转场动画）",
-//                       @"CAKeyframeAnimation（关键帧动画）",
+                       @"CAKeyframeAnimation（关键帧动画）",
 //                       @"CAAnimationGroup（动画组）"
     ];
 }
@@ -89,9 +90,9 @@
 //    else if ([title isEqualToString:@"CATransition（转场动画）"]) {
 ////        vc = [[SubViewController5 alloc] init];
 //    }
-//    else if ([title isEqualToString:@"CAKeyframeAnimation（关键帧动画）"]) {
-////        vc = [[SubViewController5 alloc] init];
-//    }
+    else if ([title isEqualToString:@"CAKeyframeAnimation（关键帧动画）"]) {
+        vc = [[SubViewController5 alloc] init];
+    }
 //    else if ([title isEqualToString:@"CABasicAnimation"]) {
 ////        vc = [[SubViewController5 alloc] init];
 //    }
