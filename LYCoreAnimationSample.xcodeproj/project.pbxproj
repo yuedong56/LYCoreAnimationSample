@@ -80,18 +80,12 @@
 				3579B50423862F4400F03138 /* AppDelegate.m */,
 				3579B50923862F4400F03138 /* ViewController.h */,
 				3579B50A23862F4400F03138 /* ViewController.m */,
-				3579B51C238631D500F03138 /* SubViewController1.h */,
-				3579B51D238631D500F03138 /* SubViewController1.m */,
-				3579B51F238637B100F03138 /* SubViewController2.h */,
-				3579B520238637B100F03138 /* SubViewController2.m */,
-				3579B52223863B7200F03138 /* SubViewController3.h */,
-				3579B52323863B7200F03138 /* SubViewController3.m */,
-				3579B5252386447700F03138 /* SubViewController4.h */,
-				3579B5262386447700F03138 /* SubViewController4.m */,
-				3579B5282386499700F03138 /* BasicAnimationController.h */,
-				3579B5292386499700F03138 /* BasicAnimationController.m */,
-				3579B52B2386805200F03138 /* LYDemoViewController.h */,
-				3579B52C2386805200F03138 /* LYDemoViewController.m */,
+				70A7A311249C587200F9236B /* CALayer隐式动画 */,
+				70A7A316249C588D00F9236B /* UIView中的的CALayer动画 */,
+				70A7A315249C588A00F9236B /* CALayer做圆角和阴影 */,
+				70A7A314249C588800F9236B /* CALayer的transform旋转 */,
+				70A7A313249C588500F9236B /* CABasicAnimation */,
+				70A7A312249C588200F9236B /* UIView中核心动画 */,
 				3579B50C23862F4400F03138 /* Main.storyboard */,
 				3579B50F23862F4500F03138 /* Assets.xcassets */,
 				3579B51123862F4500F03138 /* LaunchScreen.storyboard */,
@@ -99,6 +93,60 @@
 				3579B51523862F4500F03138 /* main.m */,
 			);
 			path = LYCoreAnimationSample;
+			sourceTree = "<group>";
+		};
+		70A7A311249C587200F9236B /* CALayer隐式动画 */ = {
+			isa = PBXGroup;
+			children = (
+				3579B51C238631D500F03138 /* SubViewController1.h */,
+				3579B51D238631D500F03138 /* SubViewController1.m */,
+			);
+			path = "CALayer隐式动画";
+			sourceTree = "<group>";
+		};
+		70A7A312249C588200F9236B /* UIView中核心动画 */ = {
+			isa = PBXGroup;
+			children = (
+				3579B52B2386805200F03138 /* LYDemoViewController.h */,
+				3579B52C2386805200F03138 /* LYDemoViewController.m */,
+			);
+			path = "UIView中核心动画";
+			sourceTree = "<group>";
+		};
+		70A7A313249C588500F9236B /* CABasicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				3579B5282386499700F03138 /* BasicAnimationController.h */,
+				3579B5292386499700F03138 /* BasicAnimationController.m */,
+			);
+			path = CABasicAnimation;
+			sourceTree = "<group>";
+		};
+		70A7A314249C588800F9236B /* CALayer的transform旋转 */ = {
+			isa = PBXGroup;
+			children = (
+				3579B5252386447700F03138 /* SubViewController4.h */,
+				3579B5262386447700F03138 /* SubViewController4.m */,
+			);
+			path = "CALayer的transform旋转";
+			sourceTree = "<group>";
+		};
+		70A7A315249C588A00F9236B /* CALayer做圆角和阴影 */ = {
+			isa = PBXGroup;
+			children = (
+				3579B52223863B7200F03138 /* SubViewController3.h */,
+				3579B52323863B7200F03138 /* SubViewController3.m */,
+			);
+			path = "CALayer做圆角和阴影";
+			sourceTree = "<group>";
+		};
+		70A7A316249C588D00F9236B /* UIView中的的CALayer动画 */ = {
+			isa = PBXGroup;
+			children = (
+				3579B51F238637B100F03138 /* SubViewController2.h */,
+				3579B520238637B100F03138 /* SubViewController2.m */,
+			);
+			path = "UIView中的的CALayer动画";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
